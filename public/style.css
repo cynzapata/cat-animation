@@ -16,8 +16,8 @@ html{
 .cat{
     background: url("cat.svg");
     height: 160px;
-    width: 1000px;
-    margin-top: 2em;
+    width: 100%;
+    margin-top: 1em;
     z-index: 10;
     animation: sprite-animation 3s steps(16, end) infinite;
 }
@@ -25,12 +25,20 @@ html{
 .cat-2{
     background: url("cat-2.svg");
     height: 140px;
-    width: 1000px;
-    margin-top: 2em;
+    width: 100%;
+    margin-top: 1em;
     z-index: 10;
     animation: sprite-animation 3s steps(16, end) infinite;
 }
 
+.cat-3{
+    background: url("cat-3.svg");
+    height: 400px;
+    width: 100%;
+    margin-top: 2em;
+    z-index: 10;
+    animation: sprite-animation 3s steps(16, end) infinite;
+}
 @keyframes sprite-animation {
     from {
         background-position: 0 0;
