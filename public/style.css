@@ -13,6 +13,15 @@ html{
     margin-top: 5em;
 }
 
+.cat-6{
+    background: url("cat-6.svg");
+    height: 500px;
+    width: 100%;
+    margin-top: 1em;
+    z-index: 10;
+    animation: sprite-animation 2s steps(7, end) infinite;
+}
+
 .cat{
     background: url("cat.svg");
     height: 160px;
@@ -28,7 +37,7 @@ html{
     width: 100%;
     margin-top: 1em;
     z-index: 10;
-    animation: sprite-animation 3s steps(16, end) infinite;
+    animation: sprite-animation 3s steps(26, end) infinite;
 }
 
 .cat-3{
@@ -55,7 +64,7 @@ html{
     width: 100%;
     margin-top: 2em;
     z-index: 10;
-    animation: sprite-animation 3s steps(16, end) infinite;
+    animation: sprite-animation 3s steps(7, end) infinite;
 }
 
 @keyframes sprite-animation {
