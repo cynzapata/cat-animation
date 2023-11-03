@@ -1,4 +1,4 @@
-This app was created to learn how to animate my drawings using svg, react, javascript, and css. I am using this project to learn how to use digital art technologies and my creative skills to make unique interfaces.
+#This app was created to learn how to animate my drawings using svg, react, javascript, and css. I am using this project to learn how to use digital art technologies and my creative skills to make unique interfaces.
 
 # Getting Started with Create React App
 
